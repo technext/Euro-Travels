@@ -5,6 +5,7 @@
 	text-transform: uppercase;
 	background: url('../images/section-header.png');
 	text-align: center;
+	background-size: cover;
 }
 .page-header{
 	text-transform: uppercase;

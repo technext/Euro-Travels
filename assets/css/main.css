@@ -340,6 +340,7 @@ ul.nav.navbar-nav.navbar-right{
 ==================================================*/
 .offer-cta{
 	background: url("../images/cta-1.png") right center;
+	background-size: cover;
 }
 .offering{
 	float: right;
