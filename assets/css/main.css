@@ -502,7 +502,7 @@ footer a:hover, footer a:focus{
     display: inline-block;
     float: right;
     background-color: #2F6B5A;
-    border-radius: 100%;
+    border-radius: 4px;
 }
 /*=================================================
 ||				13. Media Query
