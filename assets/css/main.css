@@ -503,5 +503,9 @@ footer a:hover, footer a:focus{
 	.header-wrapper{
 		background-size: none;
     	background-attachment: none;
+    	height: auto;
+	}
+	.slide{
+		height: auto;
 	}
 }
