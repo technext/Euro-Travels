@@ -490,4 +490,8 @@ footer a:hover, footer a:focus{
 	.slide{
 		height: auto;
 	}
+	.header-wrapper{
+		background-position: none;
+		background-attachment: none;
+	}
 }
