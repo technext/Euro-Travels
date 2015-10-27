@@ -466,7 +466,7 @@ footer a:hover, footer a:focus{
 	.slide{
 		height: auto;
 	}
-	.inner-intro{
+	.inner-intro, #header{
 		max-height: 627px;
 	}
 }
