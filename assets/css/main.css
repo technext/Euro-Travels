@@ -498,7 +498,9 @@ footer a:hover, footer a:focus{
 }
 @media (max-width: 375px){
 	.item-1, .item-2{
-		padding: 0px; 
+		padding: 0px;
+		margin: 99px 0 33px;
+		background: none;
 	}
 	.header-wrapper{
 		background-size: none;
