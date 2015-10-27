@@ -106,11 +106,6 @@ ul.nav.navbar-nav.navbar-right{
 .navbar-default .navbar-brand span{
 	color: #583b54;
 }
-/*.navbar-default .navbar-brand i{
-	background: -webkit-linear-gradient(#eee, #333);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-}*/
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
 	color: #60c9eb;
 }
@@ -123,7 +118,6 @@ ul.nav.navbar-nav.navbar-right{
 }
 .navbar-default .navbar-nav>li>a{
 	color: #60c9eb;
-    /*text-transform: uppercase;*/
     padding-right: 20px;
     padding-left: 20px;
     border: 1px solid transparent;
@@ -133,7 +127,6 @@ ul.nav.navbar-nav.navbar-right{
     transition: all .4s ease-in-out;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	/*border: 1px solid #60c9eb;*/
 	color: #60c9eb;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
@@ -146,18 +139,17 @@ ul.nav.navbar-nav.navbar-right{
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: transparent;
-    /*border: 1px solid #60c9eb;*/
     color: #60c9eb;
     background: #e8f9ff;
 }
 		/*Home*/
-.header-wrapper{
+/*.header-wrapper{
 	text-align: center;
 	font-weight: 200;
 	border: 0;
 	padding: 0;
 	margin: 0;
-	background: url('../images/header.png');
+	background: url('../images/header.png') no-repeat cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -165,7 +157,7 @@ ul.nav.navbar-nav.navbar-right{
 	height: 100vh;
 	overflow-x: hidden;
 	width: 100%;
-}
+}*/
 .flexslider{
 	text-align: center;
 	text-transform: uppercase;
@@ -175,6 +167,10 @@ ul.nav.navbar-nav.navbar-right{
 	border: 0;
 	overflow-x: hidden;
 	background: transparent;
+	background-image: url('../images/header.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
 .slider-item{
 	background-size: inherit;
@@ -489,9 +485,5 @@ footer a:hover, footer a:focus{
 	}
 	.slide{
 		height: auto;
-	}
-	.header-wrapper{
-		background-position: none;
-		background-attachment: none;
 	}
 }
