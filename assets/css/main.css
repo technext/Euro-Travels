@@ -500,4 +500,8 @@ footer a:hover, footer a:focus{
 	.item-1, .item-2{
 		padding: 111px; 
 	}
+	.header-wrapper{
+		background-size: none;
+    	background-attachment: none;
+	}
 }
