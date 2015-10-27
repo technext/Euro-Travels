@@ -496,3 +496,8 @@ footer a:hover, footer a:focus{
 		padding-bottom: 300px;
 	}
 }
+@media (max-width: 375px){
+	.item-1, .item-2{
+		padding: 111px; 
+	}
+}
