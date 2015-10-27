@@ -479,15 +479,13 @@ footer a:hover, footer a:focus{
 	}
 }
 @media (max-width: 480px){
-	.item-1, .item-2{
-		padding: 0px;
-		margin: 99px 0 33px;
-		background: none;
-	}
 	.header-wrapper{
 		background-size: none;
     	background-attachment: none;
     	height: auto;
+	}
+	.slider-item{
+		background-image: none !important;
 	}
 	.slide{
 		height: auto;
