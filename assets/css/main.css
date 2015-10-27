@@ -154,7 +154,6 @@ ul.nav.navbar-nav.navbar-right{
 .header-wrapper{
 	text-align: center;
 	font-weight: 200;
-	display: table;
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -166,8 +165,31 @@ ul.nav.navbar-nav.navbar-right{
 	height: 100vh;
 	overflow-x: hidden;
 	width: 100%;
+}
+.flexslider{
+	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow-x: hidden;
+	background: transparent;
+}
+.slider-item{
+	background-size: inherit;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+.inner-intro{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100vh;
+}
+.intro{
+	display: table;
+	text-align: center;
+	width: 100%;
 }
 .header-title{
 	font-size: 34px;
@@ -194,46 +216,6 @@ ul.nav.navbar-nav.navbar-right{
 .custom-btn:hover{
 	background: #fff;
 	color: #583b54;
-}
-.slide
-{
-	/*position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 50%;
-	right: 0;*/
-}
-.slide{
-	display: table;
-	width: 100%;
-	height: 100vh;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	overflow-x: hidden;
-	text-align: center;
-}
-.slide .header-carousel{
-	display: table-cell;
-	vertical-align: middle;
-}
-.item-1{
-	background: url('../images/item-1.png') no-repeat;
-    background-position: bottom left;
-    padding: 234px 0;
-}
-.item-2{
-	background: url('../images/item-2.png') no-repeat;
-    background-position: bottom right;
-    padding: 234px 0;
-}
-#header .owl-theme .owl-controls .owl-nav [class*=owl-]{
-	background: transparent;
-	color: #fff;
-	font-size: 30px;
-}
-#header .container{
-	overflow-x: hidden;
 }
 /*=================================================
 ||				4. Find a Tour
@@ -496,7 +478,7 @@ footer a:hover, footer a:focus{
 		padding-bottom: 300px;
 	}
 }
-@media (max-width: 375px){
+@media (max-width: 480px){
 	.item-1, .item-2{
 		padding: 0px;
 		margin: 99px 0 33px;

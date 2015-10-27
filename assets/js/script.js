@@ -30,6 +30,12 @@ $(document).ready(function(){
     if(typeof google != 'undefined') google.maps.event.addDomListener(window, 'load', initialize);
 });
 
+//flexslider
+ $(window).load(function() {
+    $('.flexslider').flexslider({
+        controlNav: false
+    });
+  });
 
 
 
