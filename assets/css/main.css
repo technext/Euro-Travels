@@ -470,4 +470,10 @@ footer a:hover, footer a:focus{
 	.intro{
 		max-height: 627px;
 	}
+	.navbar-default .navbar-nav>li>a{
+		font-weight: 400;
+	}
+	.navbar-default .navbar-brand{
+		padding-left: 15px;
+	}
 }
